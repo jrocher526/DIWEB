@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5</title>
+</head>
+
+<body>
+
+    <!--
+        ELEMENTO CONCEPTUAL:
+        La cabecera sería un plano rectangular situado en la parte superior.
+
+        ELEMENTO VISUAL:
+        Podría tener un color de fondo principal y un título grande.
+    -->
+    <header>
+
+        <h1>Mi página web</h1>
+
+        <!--
+            ELEMENTO RELACIONAL:
+            Los enlaces están juntos porque forman parte del mismo menú.
+
+            ELEMENTO PRÁCTICO:
+            Sirven para navegar entre las diferentes partes de la página.
+        -->
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#noticias">Noticias</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!--
+            ELEMENTO CONCEPTUAL:
+            Esta sección sería un bloque rectangular independiente.
+        -->
+        <section id="inicio">
+
+            <!--
+                ELEMENTO VISUAL:
+                El título tendría un tamaño mayor para destacar.
+            -->
+            <h2>Inicio</h2>
+
+            <p>Ejemplo de una página creada solo con HTML5.</p>
+
+
+            <!--
+                ELEMENTO CONCEPTUAL:
+                La imagen podría aparecer dentro de un marco rectangular.
+
+                ELEMENTO RELACIONAL:
+                La imagen y su descripción están juntas porque pertenecen
+                al mismo contenido.
+            -->
+            <figure>
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtlj1LU6sFlazVsGrB8v3wxwL4nIZPVZ0QBg_PRgc3g&s=10"
+                     alt="Imagen de ejemplo">
+
+                <figcaption>
+                    Imagen de ejemplo
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+
+        <!--
+            ELEMENTO CONCEPTUAL:
+            La sección de noticias sería otro bloque separado.
+        -->
+        <section id="noticias">
+
+            <h2>Noticias</h2>
+
+
+            <!--
+                ELEMENTO RELACIONAL:
+                El título y el texto de la noticia están juntos porque
+                pertenecen al mismo artículo.
+            -->
+            <article>
+
+                <h3>¿Qué es HTML5?</h3>
+
+                <p>
+                    HTML5 sirve para estructurar el contenido
+                    de una página web.
+                </p>
+
+            </article>
+
+
+            <!--
+                ELEMENTO VISUAL:
+                El contenido secundario podría tener un color
+                o tamaño diferente para distinguirlo.
+
+                ELEMENTO PRÁCTICO:
+                Sirve para mostrar información secundaria.
+            -->
+            <aside>
+
+                <p>Contenido secundario.</p>
+
+            </aside>
+
+        </section>
+
+
+        <!--
+            ELEMENTO PRÁCTICO:
+            Permite mostrar u ocultar información adicional.
+        -->
+        <section>
+
+            <h2>Más información</h2>
+
+            <details>
+
+                <summary>
+                    Ver elementos utilizados
+                </summary>
+
+                <p>
+                    Header, nav, main, section, article,
+                    aside, figure y footer.
+                </p>
+
+            </details>
+
+        </section>
+
+
+        <!--
+            ELEMENTO CONCEPTUAL:
+            La zona de contacto sería un bloque independiente.
+
+            ELEMENTO PRÁCTICO:
+            Permite al usuario introducir y enviar información.
+        -->
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <form>
+
+                <!--
+                    ELEMENTO RELACIONAL:
+                    La etiqueta Nombre está junto al campo porque
+                    ambos pertenecen al mismo dato.
+                -->
+                <label for="nombre">
+                    Nombre:
+                </label>
+
+                <input type="text" id="nombre">
+
+
+                <!--
+                    ELEMENTO CONCEPTUAL:
+                    El botón tendría una forma rectangular.
+
+                    ELEMENTO VISUAL:
+                    Podría tener un color llamativo para destacar.
+
+                    ELEMENTO PRÁCTICO:
+                    Sirve para enviar el formulario.
+                -->
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!--
+        ELEMENTO CONCEPTUAL:
+        El footer sería un plano rectangular situado al final.
+
+        ELEMENTO VISUAL:
+        Podría tener un color distinto para separarlo del contenido principal.
+
+        ELEMENTO PRÁCTICO:
+        Sirve para mostrar información del autor o del sitio.
+    -->
+    <footer>
+
+        <p>
+            Jhonal Roca - DIWEB 2026
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
