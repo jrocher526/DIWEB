@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://localhost</loc>
+		<lastmod>2026-10-07-T13:46:58+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://localhost/UD3\Actividades\Ejercicio1\sitemap</loc>
+		<lastmod>2026-10-07-T13:46:58+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://localhost/UD3\Actividades\Ejercicio1\recetas</loc>
+		<lastmod>2026-10-07-T13:46:58+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://localhost/UD3\Actividades\Ejercicio1\inicio</loc>
+		<lastmod>2026-10-07-T13:46:58+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://localhost/UD3\Actividades\Ejercicio1\contacto</loc>
+		<lastmod>2026-10-07-T13:46:58+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://localhost/Proyecto\Pagina\</loc>
+		<lastmod>2026-10-07-T13:46:58+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://localhost/UD2\Actividades\Ejercicio 3\Ejercicio-3</loc>
+		<lastmod>2026-10-07-T13:46:58+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://localhost/UD2\Actividades\Ejercicio 2\Ejercicio-2</loc>
+		<lastmod>2026-10-07-T13:46:58+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+</urlset>
